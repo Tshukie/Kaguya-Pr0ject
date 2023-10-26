@@ -1,7 +1,7 @@
 {
   "name": "KaguyaBot",
-  "version": "1.0.8",
-  "description": "Đơn giản chỉ là 1 con bot !",
+  "version": "1.0.1",
+  "description": "It's just a simple bot!",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -9,10 +9,10 @@
     "dev": "nodemon .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Thiệu Trung Kiên",
+  "author": "Arjhil",
   "license": "ISC",
   "dependencies": {
-    "@trunqkj3n/kaguya": "*",
+    "axios": "^1.5.1",
     "blessed": "^0.1.81",
     "bluebird": "^2.11.0",
     "chalk": "^5.3.0",
@@ -28,6 +28,7 @@
     "https": "^1.0.0",
     "https-proxy-agent": "^4.0.0",
     "jimp": "^0.22.10",
+    "kaguyabotfca": "^10.3.20",
     "moment-timezone": "^0.5.43",
     "mongoose": "^7.0.3",
     "mqtt": "^3.0.0",
@@ -39,7 +40,6 @@
     "semver": "^7.5.4",
     "string-similarity": "^4.0.4",
     "time-sleep": "^1.0.2",
-    "toml": "^3.0.0",
     "websocket-stream": "^5.5.0",
     "ytdl-core": "^4.11.5"
   },
